@@ -18,7 +18,7 @@ module.exports = {
         "quotes": ["error", "single"],
         "indent": ["error", 4],
         "semi-style": ["error", "last"],
-        "space-in-parens": ["error", "always"],
+        "space-in-parens": ["error", "always", {"exceptions": ["{}"]}],
         "no-extra-semi": "error",
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
         "no-var": "error",
@@ -26,6 +26,10 @@ module.exports = {
         "prefer-const": "error",
         "no-const-assign": "error",
         "object-shorthand": "error",
+        "arrow-body-style": ["error", "as-needed"],
+        "arrow-spacing": "error",
+        "template-tag-spacing": ["error", "always"],
+        "prefer-template": "error",
         "lines-around-comment": [
             "error",
             {
